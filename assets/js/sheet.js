@@ -13,6 +13,7 @@ openModalBtn.addEventListener('click', () => {
 // Close modal when 'x' is clicked
 closeModalBtn.addEventListener('click', () => {
     modal.style.display = 'none';
+    
 });
 
 // Close modal if user clicks outside of it
@@ -29,6 +30,7 @@ submitBtn.addEventListener('click', () => {
     if (name) {
         sendDataToGoogleSheet(name);
         modal.style.display = 'none'; // Hide modal after submission
+        alert("Thank you for being a part of our Wedding!")
     } else {
         alert("Please enter a name");
     }
@@ -36,12 +38,11 @@ submitBtn.addEventListener('click', () => {
 
 // Function to send data to Google Sheets
 function sendDataToGoogleSheet(name) {
-  alert(name)
     const scriptURL = 'https://script.google.com/macros/s/AKfycbydHJc3RZarn6O5DXspJDp52QJ62UAMI6eed42Uo7YrfeqYesqkxQjC8DAcYlC4zs4L/exec'; // Replace with your Google Script URL
     const formData = new FormData();
     formData.append('name', name);
 
     fetch(scriptURL, { method: 'POST', body: formData })
-        .then(response => alert('Thank you for Registering'))
-        .catch(error => console.error('Error!', error.message));
+        // .then(response => alert('Thank you for Registering'))
+        // .catch(error => console.error('Error!', error.message));
 }
