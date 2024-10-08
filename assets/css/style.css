@@ -880,6 +880,21 @@ p {
   text-align: center;
 }
 
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  width: 200px;
+  margin-left: 5rem;
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 0 1rem;
+  }
+}
+
 #submitBtn {
   text-decoration: none;
   padding: 0.5rem 0.5rem;

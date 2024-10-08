@@ -31,6 +31,32 @@
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+  <style>
+    /* Default background for desktop */
+    .hero-img {
+    background-image: url('assets/images/main-5.jpeg'), 
+                      url('assets/images/main-3.jpeg'), 
+                      url('assets/images/main-2.jpeg');
+    background-size: 33%, 33%, 33%;
+    background-position: left center, center center, right center;
+    background-repeat: no-repeat;
+    /* height: 100vh;
+    width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+
+    /* Background for mobile devices */
+    @media only screen and (max-width: 768px) {
+      .hero-img {
+            background-image: url('assets/images/main14.jpeg');
+            background-size: cover;
+            
+            background-repeat: no-repeat;
+        }
+    }
+</style>
 
   <body>
     <!--[if IE]>
@@ -138,8 +164,8 @@
 
       <div id="home" class="header_slider slider-active">
         <div
-          class="single_slider bg_cover d-flex align-items-center"
-          style="background-image: url(assets/images/main-1.jpeg)"
+          class="single_slider bg_cover d-flex align-items-center hero-img"
+          
         >
         
           <div class="container">
@@ -158,7 +184,7 @@
                     data-animation="fadeInUp"
                     data-delay="0.7s"
                   >
-                    Devender <span>&</span> Harshita
+                    Devinder <span>&</span> Harshita
                   </h2>
                   <span
                     class="location"
@@ -218,9 +244,9 @@
                   src="assets/images/couple-shape.png"
                   alt="shape"
                 />
-                <h4 class="couple_name">Devender Verma</h4>
+                <h4 class="couple_name">Devinder Verma</h4>
                 <p>
-                  I’m Devender, currently working at [Company Name], where I’m excited to apply my skills in a dynamic environment. I completed my studies in Canada, where I gained valuable insights and experiences that shaped my professional journey.
+                  I’m Devinder, currently working at [Company Name], where I’m excited to apply my skills in a dynamic environment. I completed my studies in Canada, where I gained valuable insights and experiences that shaped my professional journey.
                 </p>
                 <ul class="social">
                   <li>
@@ -300,7 +326,7 @@
             Please purchase full version to get all elements, sections and
             permission to remove footer credit
           </p> -->
-          <p  rel="nofollow" class="main-btn" id="openModalBtn">Register your Name</a>
+          <p  rel="nofollow" class="main-btn" id="openModalBtn">Mark Your Attendance</a>
         </div>
       </div>
       <!-- container -->
@@ -340,7 +366,7 @@
               </p>
             </div>
             <div class="love_date">
-              <p><i class="lni lni-heart-filled"></i> Nov 23</p>
+              <p><i class="lni lni-heart-filled"></i>1st April 2022</p>
             </div>
             <div
               class="love_image order-md-first wow fadeInRightBig"
@@ -364,7 +390,7 @@
               </p>
             </div>
             <div class="love_date">
-              <p><i class="lni lni-heart-filled"></i> 15 Jan 22</p>
+              <p><i class="lni lni-heart-filled"></i> 1st Aug 2022</p>
             </div>
             <div
               class="love_image wow fadeInLeftBig"
@@ -388,7 +414,7 @@
               </p>
             </div>
             <div class="love_date">
-              <p><i class="lni lni-heart-filled"></i> 25 Jul 22</p>
+              <p><i class="lni lni-heart-filled"></i> 2 Dec 2022</p>
             </div>
             <div
               class="love_image order-md-first wow fadeInRightBig"
@@ -419,7 +445,7 @@
             rel="nofollow"
             class="main-btn"
             id="openModalBtn"
-            >Register your Name</a
+            >Mark Your Attendance</a
           >
         </div>
       </div>
@@ -454,9 +480,10 @@
               </div>
               <div class="event_content">
                 <span class="date">02 December 2024</span>
-                <h3 class="event_title"><a href="#">Ladies Sangeet</a></h3>
+                <h3 class="event_title"><a href="#"> Mastani Shaam  </a></h3>
                 <p>
-                  Ladies Sangeet will begin from 7 PM Onwards at Patiala.
+                  Mastani Shaam…………………7:00 PM
+                  Venue: Simran Resort, Sirhind Road, Patiala, Punjab.
                 </p>
                 <!-- <a class="more" href="#">Read More...</a> -->
               </div>
@@ -476,7 +503,9 @@
                 <span class="date">03 December 2024</span>
                 <h3 class="event_title"><a href="#">Haldi Ceremony + Chaak & Bhaat</a></h3>
                 <p>
-                  The Haldi Ceremony will begin from 9 AM Onwards and Chaak & Bhaat will begin from 12 PM Onwards at Patiala. Baraat will depart from Patial at 8 PM
+                  Haldi Hues……………………….10:00 AM
+                  Chak Bhat Nyotana…………..03:00 PM  
+                  Tilak Ceremony & Dhum Dham Night
                 </p>
                 <!-- <a class="more" href="#">Read More...</a> -->
               </div>
@@ -494,9 +523,14 @@
               </div>
               <div class="event_content">
                 <span class="date">04 December 2024</span>
-                <h3 class="event_title"><a href="#">Tika Ceremony + DJ Night</a></h3>
+                <h3 class="event_title"><a href="#">Tilak Ceremony + DJ Night</a></h3>
                 <p>
-                  Tika Ceremony will begin from 4 PM onwards at Bikaner followed by DJ Night that will start at 7 PM bearing a theme of "BLACK and WHITE"
+                  Tilak Ceremony………………04:00 PM
+                  Dhum Dham Night………….07:00 PM  
+                  Blissful Beginnings 
+                  Ghurchari……………………….06:00 PM
+                  Departure of Barat………….07:00 PM 
+                  Venue: The Park Paradise, Rani Bazar Industrial Area, Bikaner, Rajasthan  
                 </p>
                 <!-- <a class="more" href="#">Read More...</a> -->
               </div>
@@ -517,7 +551,7 @@
               <span class="date">05 December 2024</span>
               <h3 class="event_title"><a href="#">Phoolon wali Haldi and Marriage</a></h3>
               <p>
-                Phoolon wali Haldi will begin from 9 AM onwards at Bikaner followed by Marriage ceremony that will start at 6 PM.
+                Phoolon wali Haldi will begin from 9 AM onwards at The Park Paradise, Bikaner, Rajasthan followed by Marriage ceremony that will start at 6 PM.
               </p>
               <!-- <a class="more" href="#">Read More...</a> -->
             </div>
@@ -540,17 +574,22 @@
 
     <section id="contact" class="contact_area pt-130 pb-130">
       <div class="container">
+        <div class="locations">
+          <img src="/assets/images/location1.jpeg" />
+          <img src="/assets/images/location2.jpeg" />
+        </div>
+        
         <div class="text-center">
-          <h1>You are Welcome at our weddding</h1>
-          <p>Devender weds Harshita</p>
+          <h1>Kindly scan the QR code for Location First meet</h1>
+          <p>Devinder weds Harshita</p>
           <p
-           
             rel="nofollow"
             class="main-btn"
             id="openModalBtn"
-            >Register your Name</a
+            >Mark Your Attendance</a
           >
         </div>
+        
       </div>
       <!-- container -->
     </section>
@@ -571,7 +610,7 @@
             <a href="#"><img src="assets/images/logo-2.png" alt="logo" /></a>
           </div>
           <div class="footer_title">
-            <h3 class="title">Devender <span>&</span> Harshita</h3>
+            <h3 class="title">Devinder <span>&</span> Harshita</h3>
           </div>
           <ul class="footer_menu">
             <li><a href="#">Home</a></li>
