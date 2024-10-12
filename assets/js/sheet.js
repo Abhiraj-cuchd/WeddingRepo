@@ -38,7 +38,7 @@ submitBtn.addEventListener('click', () => {
 
 // Function to send data to Google Sheets
 function sendDataToGoogleSheet(name) {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbydHJc3RZarn6O5DXspJDp52QJ62UAMI6eed42Uo7YrfeqYesqkxQjC8DAcYlC4zs4L/exec'; // Replace with your Google Script URL
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyGrhP_ggohLTwGdksW3ofFAgE_NjiMCjOHpQ-54YSIBjKOVrFMR2Ju6U3nNIhTYmL4GQ/exec'; // Replace with your Google Script URL
     const formData = new FormData();
     formData.append('name', name);
 
